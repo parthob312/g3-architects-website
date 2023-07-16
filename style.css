@@ -139,6 +139,14 @@
   margin-top: 50px;
   margin-bottom: 130px;
 }
+/* footer section */
+.footer-content {
+  border-radius: 8px;
+  background: #fff4e7;
+  text-align: center;
+  padding: 39px 410px;
+  margin: 0 240px 216px 240px;
+}
 /* Responsive */
 /* Mobile Device */
 @media screen and (max-width: 567px) {
@@ -176,6 +184,13 @@
     gap: 10px;
     margin: 20px 0;
   }
+  .footer-content {
+    border-radius: 8px;
+    background: #fff4e7;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0;
+  }
 }
 /* Medium Devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -208,5 +223,12 @@
   }
   .sponspors-logo {
     flex-wrap: wrap;
+  }
+  .footer-content {
+    border-radius: 8px;
+    background: #fff4e7;
+    text-align: center;
+    padding: 39px 200px;
+    margin: 30px 0;
   }
 }
