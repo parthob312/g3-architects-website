@@ -8,6 +8,28 @@
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px 45px 228px;
 }
+.body-main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 20px;
+}
+.common-btn {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 21px 24px 20px 25px;
+  cursor: pointer;
+  margin-top: 32px;
+}
 /* navbar section */
 .navbar {
   display: flex;
@@ -45,28 +67,36 @@
   font-weight: 700;
   margin-top: 102px;
 }
-.banner-description {
-  color: #727272;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.625rem;
-  margin-top: 20px;
-}
-.header-btn {
-  color: #fff;
-  font-size: 1.25rem;
-  font-weight: 600;
-  border: 0;
-  border-radius: 8px;
-  background: #ff900e;
-  padding: 21px 24px 20px 25px;
-  cursor: pointer;
-  margin-top: 32px;
-}
 .bannar-img {
   margin-top: 50px;
   width: 100%;
 }
+/* features section */
+.features {
+  display: flex;
+  gap: 76px;
+  padding: 85px 291px 130px 301px;
+  align-items: center;
+  justify-content: center;
+}
+.features-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.features-heading {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.feature {
+  color: #ff900e;
+}
+.qc-list {
+  color: #727272;
+  font-weight: 500;
+}
+
 /* Responsive */
 /* Mobile Device */
 @media screen and (max-width: 567px) {
@@ -82,6 +112,15 @@
   .nav-link {
     margin-top: 20px;
   }
+  .features {
+    flex-direction: column-reverse;
+    padding: 20px 0;
+  }
+  .features-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
 }
 /* Medium Devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -96,5 +135,14 @@
   }
   .nav-link {
     margin-top: 20px;
+  }
+  .features {
+    flex-direction: column-reverse;
+    padding: 20px 0;
+  }
+  .features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
 }
