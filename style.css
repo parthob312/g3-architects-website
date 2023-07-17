@@ -86,7 +86,7 @@
 }
 .features-heading {
   color: #131313;
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 700;
 }
 .feature {
@@ -98,7 +98,7 @@
 }
 /* fact section */
 .facts {
-  padding: 130px 290px 180px 290px;
+  padding: 0 239px 180px 239px;
 }
 .description-margin {
   margin-top: 24px;
@@ -117,13 +117,13 @@
 }
 .card-title {
   color: #424242;
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 600;
   margin-top: 10px;
 }
 .card-description {
   color: #727272;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-top: 5;
 }
@@ -149,7 +149,7 @@
 }
 /* enjoy section */
 .enjoy {
-  padding: 0 240px;
+  padding: 0 239px;
   display: flex;
   gap: 146px;
 }
@@ -157,8 +157,8 @@
   padding-top: 39px;
 }
 .enjoy-container {
-  margin-top: 20px;
-  padding: 30px 42px 30px 30px;
+  margin-top: 10px;
+  padding: 30px 0 30px 30px;
 }
 .enjoy-container1 {
   margin-top: 40px;
@@ -168,7 +168,7 @@
 }
 .enjoy-title {
   color: #131313;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .border {
@@ -181,22 +181,22 @@
   background: #ff900e;
   display: inline-block;
   padding: 46px 42px;
-  top: -10%;
+  top: -11%;
   right: 12%;
 }
 .year {
   color: #fff;
   text-align: center;
-  font-size: 65px;
+  font-size: 4.0625rem;
   font-weight: 700;
-  line-height: 70px;
+  line-height: 4.375rem;
 }
 .experince {
   color: #fff;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 .enjoy-img {
   width: 100%;
